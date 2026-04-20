@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import os
+from tqdm import tqdm
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 
@@ -21,28 +22,32 @@ all_events = []
 page_number = 1
 has_more_pages = True
 
-while has_more_pages:
-    soup = get_page_html(page_number)
-    
-    # Extract event details from the current page
-    event_list = soup.find_all("a", class_="b-link b-link_style_black")
-    if not event_list:
-        has_more_pages = False  # Exit if no more events are found on the page
-    else:
-        for event in event_list:
-            event_name = event.text.strip()
-            event_url = event['href']
-            all_events.append({"event_name": event_name, "event_url": event_url})
-        
-        page_number += 1  # Move to the next page
-        time.sleep(1)  # Delay to avoid overloading the server
+print("Fetching event list...")
+with tqdm(unit=" pages") as pbar:
+    while has_more_pages:
+        soup = get_page_html(page_number)
+
+        # Extract event details from the current page
+        event_list = soup.find_all("a", class_="b-link b-link_style_black")
+        if not event_list:
+            has_more_pages = False
+        else:
+            for event in event_list:
+                event_name = event.text.strip()
+                event_url = event['href']
+                all_events.append({"event_name": event_name, "event_url": event_url})
+
+            page_number += 1
+            pbar.update(1)
+            time.sleep(1)
 
 # Convert to DataFrame
 events_df = pd.DataFrame(all_events)
 
 # Scrape fights for each event and store them all in one list
 all_fights = []
-for index, row in events_df.iterrows():
+print(f"\nScraping fights for {len(events_df)} events...")
+for index, row in tqdm(events_df.iterrows(), total=len(events_df), unit=" events"):
     event_name = row['event_name']
     event_url = row['event_url']
     
