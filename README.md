@@ -22,7 +22,7 @@ docs/            — Documentation
 
 **Install dependencies:**
 ```bash
-pip3 install pandas numpy requests beautifulsoup4
+pip3 install pandas numpy requests beautifulsoup4 tqdm
 ```
 
 **Scrape fresh fight data:**
