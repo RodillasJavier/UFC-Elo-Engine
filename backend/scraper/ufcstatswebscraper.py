@@ -4,12 +4,13 @@ import pandas as pd
 import time
 
 # Base URL for UFC events
-base_url = "http://ufcstats.com/statistics/events/completed?page="
+BASE_URL = "http://ufcstats.com/statistics/events/completed?page="
 
 # Function to get the HTML of a given page number
 def get_page_html(page_number):
-    url = base_url + str(page_number)
+    url = BASE_URL + str(page_number)
     response = requests.get(url)
+
     return BeautifulSoup(response.content, "html.parser")
 
 # Scrape all pages of completed UFC events
@@ -73,8 +74,8 @@ for index, row in events_df.iterrows():
     
     time.sleep(1)  # 1-second delay between event scrapes
 
-Convert the all_fights list into a DataFrame
+# Convert the all_fights list into a DataFrame
 all_fights_df = pd.DataFrame(all_fights)
 
-Save the entire dataset to one CSV file
-all_fights_df.to_csv("ufcfights.csv", index=False)
+# Save the entire dataset to one CSV file
+all_fights_df.to_csv("../../data/raw/ufcfights.csv", index=False)

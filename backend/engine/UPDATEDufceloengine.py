@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the CSV
-ufcfights_not_sorted = pd.read_csv("4_12_26.csv", index_col=0)
+ufcfights_not_sorted = pd.read_csv("../../data/raw/4_12_26.csv", index_col=0)
 ufcfights = ufcfights_not_sorted.reset_index()
 
 # Sort with the most recent at the bottom
@@ -123,14 +123,14 @@ def get_fighter_info(fighter_name, elo_ratings, ufcfights, initial_elo=1000):
 
 all_fighters = sorted(elo_ratings.items(), key=lambda x: x[1], reverse=True)
 all_fighters_df = pd.DataFrame(all_fighters, columns=['Fighter', 'Elo Rating'])
-all_fighters_df.to_csv('k_factor_adjust_current.csv', index=False)
+all_fighters_df.to_csv('../../data/output/k_factor_adjust_current.csv', index=False)
 #all_fighters_df.to_csv('ogcurrent.csv', index=False)
 
 
 
 peak_elo = sorted(peak_elo_ratings.items(), key = lambda x: x[1], reverse = True)
 peak_elo_df = pd.DataFrame(peak_elo, columns=['Fighter', 'Peak Elo'])
-peak_elo_df.to_csv('k_adjust_fighter_peak_elo.csv', index=False)
+peak_elo_df.to_csv('../../data/output/k_adjust_fighter_peak_elo.csv', index=False)
 
 '''
 k_peak_elo = sorted(peak_elo_ratings.items(), key = lambda x: x[1], reverse = True)
