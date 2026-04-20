@@ -2,6 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
+import os
+
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 
 # Base URL for UFC events
 BASE_URL = "http://ufcstats.com/statistics/events/completed?page="
@@ -78,4 +81,4 @@ for index, row in events_df.iterrows():
 all_fights_df = pd.DataFrame(all_fights)
 
 # Save the entire dataset to one CSV file
-all_fights_df.to_csv("../../data/raw/ufcfights.csv", index=False)
+all_fights_df.to_csv(os.path.join(ROOT_DIR, "data/raw/ufcfights.csv"), index=False)
