@@ -1,8 +1,11 @@
 import pandas as pd
 import numpy as np
+import os
+
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 
 # Load the CSV
-ufcfights_not_sorted = pd.read_csv("../../data/raw/ufcfights10_26_24.csv", index_col=0)
+ufcfights_not_sorted = pd.read_csv(os.path.join(ROOT_DIR, "data/raw/ufcfights10_26_24.csv"), index_col=0)
 ufcfights = ufcfights_not_sorted.reset_index()
 
 # Sort with the most recent at the bottom
@@ -125,7 +128,7 @@ top_50_df.to_csv('top_50_fighters_elo.csv', index=False)
 
 all_fighters = sorted(elo_ratings.items(), key=lambda x: x[1], reverse=True)
 all_fighters_df = pd.DataFrame(all_fighters, columns=['Fighter', 'Elo Rating'])
-all_fighters_df.to_csv('../../data/output/current_fighters_elo.csv', index=False)
+all_fighters_df.to_csv(os.path.join(ROOT_DIR, "data/output/current_fighters_elo.csv"), index=False)
 
 
 
