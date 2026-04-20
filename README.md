@@ -45,7 +45,3 @@ Outputs:
 - Expected score: `1 / (1 + 10^((opponent_elo - your_elo) / 400))`
 - Rating update: `K × (actual_score - expected_score)`
 - KO/submission wins: K=46 &nbsp;|&nbsp; Decision wins: K=40 &nbsp;|&nbsp; Draws: K/2 with 0.5 score &nbsp;|&nbsp; No contests: no change
-
-## YouTube Walkthrough
-
-https://www.youtube.com/watch?v=PLwhzlyjEgU
