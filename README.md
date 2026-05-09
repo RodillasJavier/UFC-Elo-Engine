@@ -20,6 +20,12 @@ docs/            — Documentation
 
 ## Running the Project
 
+**Set up a virtual environment:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
 **Install dependencies:**
 ```bash
 pip3 install pandas numpy requests beautifulsoup4 tqdm
