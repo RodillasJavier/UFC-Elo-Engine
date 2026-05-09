@@ -10,11 +10,12 @@ A web scraper pulls all results from [ufcstats.com](http://ufcstats.com), and an
 backend/
   engine/        — Elo calculation scripts
   scraper/       — Web scraper for ufcstats.com
+  api/           — FastAPI backend (rankings, search, fighter profiles)
 data/
-  raw/           — Input fight datasets (named by scrape date, e.g. 4_12_26.csv)
+  raw/           — Input fight data (ufcfights.csv, updated by scraper)
   output/        — Ranked Elo CSVs produced by the engine
+frontend/        — React + Vite web app
 notebooks/       — Jupyter analysis notebook
-frontend/        — App (in progress)
 docs/            — Documentation
 ```
 
