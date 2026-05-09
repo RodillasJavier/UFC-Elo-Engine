@@ -54,5 +54,5 @@ Outputs:
 
 ## Contributors
 
-[Javier Rodillas](https://github.com/RodillasJavier)
-[Trevor Hicks](https://github.com/NBAtrev) - Original Developer
+- [Javier Rodillas](https://github.com/RodillasJavier)
+- [Trevor Hicks](https://github.com/NBAtrev) - Original Developer
