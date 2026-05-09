@@ -1,3 +1,4 @@
+# Legacy engine — fixed K=40 for all outcomes. Superseded by engine.py (dynamic K-factors).
 import pandas as pd
 import numpy as np
 import os
