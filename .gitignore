@@ -1,8 +1,15 @@
-CLAUDE.md
-AGENTS.md
+.env
 firebase-debug.log
 .venv/
 __pycache__/
 *.pyc
 .DS_Store
 PLAN.md
+node_modules/
+dist/
+build/
+*.log
+
+# AGENTS
+CLAUDE.md
+AGENTS.md
