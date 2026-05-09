@@ -5,3 +5,4 @@ firebase-debug.log
 __pycache__/
 *.pyc
 .DS_Store
+PLAN.md
