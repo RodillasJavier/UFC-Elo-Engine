@@ -5,7 +5,7 @@ import os
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 
 # Load the CSV
-ufcfights_not_sorted = pd.read_csv(os.path.join(ROOT_DIR, "data/raw/4_12_26.csv"), index_col=0)
+ufcfights_not_sorted = pd.read_csv(os.path.join(ROOT_DIR, "data/raw/ufcfights.csv"), index_col=0)
 ufcfights = ufcfights_not_sorted.reset_index()
 
 # Sort with the most recent at the bottom
@@ -16,8 +16,11 @@ unique_events['event_id'] = range(1, len(unique_events) + 1)
 ufcfights = ufcfights.merge(unique_events, on='event')
 ufcfights['method'] = ufcfights['method'].apply(lambda x: 'KO' if 'KO' in x else ('SUB' if 'SUB' in x else x))
 ufcfights['result'] = ufcfights['result'].apply(lambda x: 'nc' if 'nc' in x else ('draw' if 'draw' in x else x))
+
 # Drop unnecessary columns
-ufcfights.drop(columns=["weight","round", "time","date"], inplace=True)
+cols_to_drop = [c for c in ["weight", "round", "time", "date"] if c in ufcfights.columns]
+ufcfights.drop(columns=cols_to_drop, inplace=True)
+
 #NEW - elo update for method
 def get_k_factor(method, base_k=40):
     if method == 'KO' or method == 'SUB':
@@ -52,10 +55,10 @@ def update_elo(winner_elo, loser_elo, k_factor, result="win"):
 ufcfights['cc_match'] = np.arange(1, len(ufcfights) + 1)
 
 # Add columns for Elo ratings
-ufcfights['fighter_1_elo_start'] = 0
-ufcfights['fighter_2_elo_start'] = 0
-ufcfights['fighter_1_elo_end'] = 0
-ufcfights['fighter_2_elo_end'] = 0
+ufcfights['fighter_1_elo_start'] = 0.0
+ufcfights['fighter_2_elo_start'] = 0.0
+ufcfights['fighter_1_elo_end'] = 0.0
+ufcfights['fighter_2_elo_end'] = 0.0
 
 # Calculate Elo ratings for each match
 for index, row in ufcfights.iterrows():
@@ -134,6 +137,10 @@ all_fighters_df.to_csv(os.path.join(ROOT_DIR, "data/output/k_factor_adjust_curre
 peak_elo = sorted(peak_elo_ratings.items(), key = lambda x: x[1], reverse = True)
 peak_elo_df = pd.DataFrame(peak_elo, columns=['Fighter', 'Peak Elo'])
 peak_elo_df.to_csv(os.path.join(ROOT_DIR, "data/output/k_adjust_fighter_peak_elo.csv"), index=False)
+
+print(f"Done. Processed {len(ufcfights)} fights across {len(elo_ratings)} fighters.")
+print(f"  → data/output/k_factor_adjust_current.csv")
+print(f"  → data/output/k_adjust_fighter_peak_elo.csv")
 
 '''
 k_peak_elo = sorted(peak_elo_ratings.items(), key = lambda x: x[1], reverse = True)
