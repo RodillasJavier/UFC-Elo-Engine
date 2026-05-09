@@ -38,7 +38,7 @@ python3 backend/scraper/ufcstatswebscraper.py
 
 **Run the Elo engine:**
 ```bash
-python3 backend/engine/UPDATEDufceloengine.py
+python3 backend/engine/engine.py
 ```
 
 Outputs:
