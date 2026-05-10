@@ -1,15 +1,39 @@
 event,fighter_1,fighter_2,result,weight,method,round,time
-UFC 328: Chimaev vs. Strickland,Khamzat Chimaev,Sean Strickland,,Middleweight,,,
-UFC 328: Chimaev vs. Strickland,Joshua Van,Tatsuro Taira,,Flyweight,,,
-UFC 328: Chimaev vs. Strickland,Alexander Volkov,Waldo Cortes Acosta,,Heavyweight,,,
-UFC 328: Chimaev vs. Strickland,Sean Brady,Joaquin Buckley,,Welterweight,,,
-UFC 328: Chimaev vs. Strickland,King Green,Jeremy Stephens,,Lightweight,,,
-UFC 328: Chimaev vs. Strickland,Ateba Gautier,Ozzy Diaz,,Middleweight,,,
-UFC 328: Chimaev vs. Strickland,Joel Alvarez,Yaroslav Amosov,,Welterweight,,,
-UFC 328: Chimaev vs. Strickland,Grant Dawson,Mateusz Rebecki,,Lightweight,,,
-UFC 328: Chimaev vs. Strickland,Jim Miller,Jared Gordon,,Lightweight,,,
-UFC 328: Chimaev vs. Strickland,Roman Kopylov,Marco Tulio,,Middleweight,,,
-UFC 328: Chimaev vs. Strickland,Pat Sabatini,William Gomis,,Featherweight,,,
+UFC 328: Chimaev vs. Strickland,Sean Strickland,Khamzat Chimaev,win,Middleweight,S-DEC,5,5:00
+UFC 328: Chimaev vs. Strickland,Joshua Van,Tatsuro Taira,win,Flyweight,"KO/TKO
+
+      
+
+        Punches",5,1:32
+UFC 328: Chimaev vs. Strickland,Alexander Volkov,Waldo Cortes Acosta,win,Heavyweight,U-DEC,3,5:00
+UFC 328: Chimaev vs. Strickland,Sean Brady,Joaquin Buckley,win,Welterweight,U-DEC,3,5:00
+UFC 328: Chimaev vs. Strickland,King Green,Jeremy Stephens,win,Lightweight,"SUB
+
+      
+
+        Rear Naked Choke",1,4:20
+UFC 328: Chimaev vs. Strickland,Ateba Gautier,Ozzy Diaz,win,Middleweight,"KO/TKO
+
+      
+
+        Punch",2,1:10
+UFC 328: Chimaev vs. Strickland,Yaroslav Amosov,Joel Alvarez,win,Welterweight,"SUB
+
+      
+
+        Arm Triangle",2,1:13
+UFC 328: Chimaev vs. Strickland,Grant Dawson,Mateusz Rebecki,win,Lightweight,"SUB
+
+      
+
+        Rear Naked Choke",3,4:42
+UFC 328: Chimaev vs. Strickland,Jim Miller,Jared Gordon,win,Lightweight,"SUB
+
+      
+
+        Guillotine Choke",1,3:29
+UFC 328: Chimaev vs. Strickland,Roman Kopylov,Marco Tulio,win,Middleweight,U-DEC,3,5:00
+UFC 328: Chimaev vs. Strickland,Pat Sabatini,William Gomis,win,Featherweight,U-DEC,3,5:00
 UFC 328: Chimaev vs. Strickland,Baisangur Susurkaev,Djorden Santos,win,Middleweight,"SUB
 
       
@@ -2082,6 +2106,93 @@ UFC Fight Night: Dern vs. Ribas 2,Fatima Kline,Viktoriia Dudakova,win,Women's St
 
         Elbows",2,4:27
 UFC Fight Night: Dern vs. Ribas 2,Nurullo Aliev,Joe Solecki,win,Lightweight,U-DEC,3,5:00
+UFC Fight Night: Covington vs. Buckley,Joaquin Buckley,Colby Covington,win,Welterweight,KO/TKO,3,4:42
+UFC Fight Night: Covington vs. Buckley,Cub Swanson,Billy Quarantillo,win,Featherweight,"KO/TKO
+
+      
+
+        Punch",3,1:36
+UFC Fight Night: Covington vs. Buckley,Manel Kape,Bruno Silva,win,Flyweight,"KO/TKO
+
+      
+
+        Punches",3,1:57
+UFC Fight Night: Covington vs. Buckley,Dustin Jacoby,Vitor Petrino,win,Light Heavyweight,"KO/TKO
+
+      
+
+        Punch",3,3:44
+UFC Fight Night: Covington vs. Buckley,Daniel Marcos,Adrian Yanez,win,Bantamweight,S-DEC,3,5:00
+UFC Fight Night: Covington vs. Buckley,Navajo Stirling,Tuco Tokkos,win,Light Heavyweight,U-DEC,3,5:00
+UFC Fight Night: Covington vs. Buckley,Michael Johnson,Ottman Azaitar,win,Lightweight,"KO/TKO
+
+      
+
+        Punch",2,2:03
+UFC Fight Night: Covington vs. Buckley,Joel Alvarez,Drakkar Klose,win,Lightweight,"KO/TKO
+
+      
+
+        Knee",1,2:48
+UFC Fight Night: Covington vs. Buckley,Sean Woodson,Fernando Padilla,win,Featherweight,"KO/TKO
+
+      
+
+        Punches",1,4:58
+UFC Fight Night: Covington vs. Buckley,Felipe Lima,Miles Johns,win,Featherweight,U-DEC,3,5:00
+UFC Fight Night: Covington vs. Buckley,Miranda Maverick,Jamey-Lyn Horth,win,Women's Flyweight,U-DEC,3,5:00
+UFC Fight Night: Covington vs. Buckley,Davey Grant,Ramon Taveras,win,Bantamweight,U-DEC,3,5:00
+UFC Fight Night: Covington vs. Buckley,Piera Rodriguez,Josefine Knutsson,win,Women's Strawweight,U-DEC,3,5:00
+UFC 310: Pantoja vs. Asakura,Alexandre Pantoja,Kai Asakura,win,Flyweight,"SUB
+
+      
+
+        Rear Naked Choke",2,2:05
+UFC 310: Pantoja vs. Asakura,Shavkat Rakhmonov,Ian Machado Garry,win,Welterweight,U-DEC,5,5:00
+UFC 310: Pantoja vs. Asakura,Ciryl Gane,Alexander Volkov,win,Heavyweight,S-DEC,3,5:00
+UFC 310: Pantoja vs. Asakura,Bryce Mitchell,Kron Gracie,win,Featherweight,"KO/TKO
+
+      
+
+        Elbows",3,0:39
+UFC 310: Pantoja vs. Asakura,Dooho Choi,Nate Landwehr,win,Featherweight,"KO/TKO
+
+      
+
+        Elbows",3,3:21
+UFC 310: Pantoja vs. Asakura,Dominick Reyes,Anthony Smith,win,Light Heavyweight,"KO/TKO
+
+      
+
+        Punches",2,4:46
+UFC 310: Pantoja vs. Asakura,Vicente Luque,Themba Gorimbo,win,Welterweight,"SUB
+
+      
+
+        Anaconda Choke",1,0:52
+UFC 310: Pantoja vs. Asakura,Movsar Evloev,Aljamain Sterling,win,Featherweight,U-DEC,3,5:00
+UFC 310: Pantoja vs. Asakura,Bryan Battle,Randy Brown,win,Welterweight,S-DEC,3,5:00
+UFC 310: Pantoja vs. Asakura,Eryk Anders,Chris Weidman,win,Catch Weight,"KO/TKO
+
+      
+
+        Punches",2,4:51
+UFC 310: Pantoja vs. Asakura,Joshua Van,Cody Durden,win,Flyweight,U-DEC,3,5:00
+UFC 310: Pantoja vs. Asakura,Michael Chiesa,Max Griffin,win,Welterweight,"SUB
+
+      
+
+        Rear Naked Choke",3,1:56
+UFC 310: Pantoja vs. Asakura,Chase Hooper,Clay Guida,win,Lightweight,"SUB
+
+      
+
+        Armbar",1,3:41
+UFC 310: Pantoja vs. Asakura,Kennedy Nzechukwu,Lukasz Brzeski,win,Heavyweight,"KO/TKO
+
+      
+
+        Punch",1,4:51
 UFC Fight Night: Yan vs. Figueiredo,Petr Yan,Deiveson Figueiredo,win,Bantamweight,U-DEC,5,5:00
 UFC Fight Night: Yan vs. Figueiredo,Yan Xiaonan,Tabatha Ricci,win,Women's Strawweight,U-DEC,3,5:00
 UFC Fight Night: Yan vs. Figueiredo,Muslim Salikhov,Song Kenan,win,Welterweight,"KO/TKO
@@ -3042,6 +3153,39 @@ UFC Fight Night: Blanchfield vs. Fiorot,Jacob Malkoun,Andre Petroski,win,Middlew
 
         Kick",2,0:39
 UFC Fight Night: Blanchfield vs. Fiorot,Caolan Loughran,Angel Pacheco,win,Bantamweight,U-DEC,3,5:00
+UFC Fight Night: Ribas vs. Namajunas,Rose Namajunas,Amanda Ribas,win,Women's Flyweight,U-DEC,5,5:00
+UFC Fight Night: Ribas vs. Namajunas,Karl Williams,Justin Tafa,win,Heavyweight,U-DEC,3,5:00
+UFC Fight Night: Ribas vs. Namajunas,Edmen Shahbazyan,AJ Dobson,win,Middleweight,"KO/TKO
+
+      
+
+        Punches",1,4:33
+UFC Fight Night: Ribas vs. Namajunas,Payton Talbott,Cameron Saaiman,win,Bantamweight,"KO/TKO
+
+      
+
+        Punches",2,0:21
+UFC Fight Night: Ribas vs. Namajunas,Youssef Zalal,Billy Quarantillo,win,Featherweight,"SUB
+
+      
+
+        Rear Naked Choke",2,1:50
+UFC Fight Night: Ribas vs. Namajunas,Fernando Padilla,Luis Pajuelo,win,Featherweight,"SUB
+
+      
+
+        D'Arce Choke",1,2:45
+UFC Fight Night: Ribas vs. Namajunas,Trey Ogden,Kurt Holobaugh,win,Lightweight,U-DEC,3,5:00
+UFC Fight Night: Ribas vs. Namajunas,Julian Erosa,Ricardo Ramos,win,Featherweight,"SUB
+
+      
+
+        Guillotine Choke",1,2:15
+UFC Fight Night: Ribas vs. Namajunas,Miles Johns,Cody Gibson,win,Bantamweight,U-DEC,3,5:00
+UFC Fight Night: Ribas vs. Namajunas,Jarno Errens,Steven Nguyen,win,Featherweight,U-DEC,3,5:00
+UFC Fight Night: Ribas vs. Namajunas,Daria Zhelezniakova,Montse Rendon,win,Women's Bantamweight,U-DEC,3,5:00
+UFC Fight Night: Ribas vs. Namajunas,Andre Lima,Igor Severino,win,Flyweight,DQ,2,2:52
+UFC Fight Night: Ribas vs. Namajunas,Mick Parkin,Mohammed Usman,win,Heavyweight,U-DEC,3,5:00
 UFC Fight Night: Tuivasa vs. Tybura,Marcin Tybura,Tai Tuivasa,win,Heavyweight,"SUB
 
       
@@ -3887,6 +4031,34 @@ UFC Fight Night: Holloway vs. The Korean Zombie,JJ Aldrich,Liang Na,win,Women's 
 
         Elbows",2,4:49
 UFC Fight Night: Holloway vs. The Korean Zombie,SeungWoo Choi,Jarno Errens,win,Featherweight,U-DEC,3,5:00
+UFC 292: Sterling vs. O'Malley,Sean O'Malley,Aljamain Sterling,win,Bantamweight,"KO/TKO
+
+      
+
+        Punches",2,0:51
+UFC 292: Sterling vs. O'Malley,Zhang Weili,Amanda Lemos,win,Women's Strawweight,U-DEC,5,5:00
+UFC 292: Sterling vs. O'Malley,Ian Machado Garry,Neil Magny,win,Welterweight,U-DEC,3,5:00
+UFC 292: Sterling vs. O'Malley,Mario Bautista,Da'Mon Blackshear,win,Bantamweight,U-DEC,3,5:00
+UFC 292: Sterling vs. O'Malley,Marlon Vera,Pedro Munhoz,win,Bantamweight,U-DEC,3,5:00
+UFC 292: Sterling vs. O'Malley,Brad Tavares,Chris Weidman,win,Middleweight,U-DEC,3,5:00
+UFC 292: Sterling vs. O'Malley,Gregory Rodrigues,Denis Tiuliulin,win,Middleweight,"KO/TKO
+
+      
+
+        Elbows",1,1:43
+UFC 292: Sterling vs. O'Malley,Kurt Holobaugh,Austin Hubbard,win,Lightweight,"SUB
+
+      
+
+        Triangle Choke",2,2:39
+UFC 292: Sterling vs. O'Malley,Brad Katona,Cody Gibson,win,Bantamweight,U-DEC,3,5:00
+UFC 292: Sterling vs. O'Malley,Andre Petroski,Gerald Meerschaert,win,Middleweight,S-DEC,3,5:00
+UFC 292: Sterling vs. O'Malley,Natalia Silva,Andrea Lee,win,Women's Flyweight,U-DEC,3,5:00
+UFC 292: Sterling vs. O'Malley,Karine Silva,Maryna Moroz,win,Women's Flyweight,"SUB
+
+      
+
+        Guillotine Choke",1,4:59
 UFC Fight Night: Luque vs. Dos Anjos,Vicente Luque,Rafael Dos Anjos,win,Welterweight,U-DEC,5,5:00
 UFC Fight Night: Luque vs. Dos Anjos,Cub Swanson,Hakeem Dawodu,win,Featherweight,U-DEC,3,5:00
 UFC Fight Night: Luque vs. Dos Anjos,Khalil Rountree Jr.,Chris Daukaus,win,Light Heavyweight,"KO/TKO
@@ -25772,10 +25944,6 @@ UFC - Ultimate Japan,Frank Shamrock,Kevin Jackson,win,Lightweight,"SUB
       
 
         Armbar",1,0:16
-UFC - Ultimate Japan,Kazushi Sakuraba,Marcus Silveira,"nc
-
-
-nc",Heavyweight,Overturned,1,1:51
 UFC - Ultimate Japan,David Abbott,Yoji Anjo,win,Heavyweight,U-DEC,2,3:00
 UFC - Ultimate Japan,Tra Telligman,Brad Kohler,win,Heavyweight,"SUB
 
