@@ -47,6 +47,18 @@ Outputs:
 - `data/output/k_factor_adjust_current.csv` — all fighters ranked by current Elo
 - `data/output/k_adjust_fighter_peak_elo.csv` — all fighters ranked by peak Elo
 
+**Run the API server:**
+```bash
+python3 -m uvicorn backend.api.main:app --reload
+```
+
+**Run the web app (separate terminal):**
+```bash
+cd frontend && npm install && npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173).
+
 ## How the Elo System Works
 
 - Every fighter starts at 1000
