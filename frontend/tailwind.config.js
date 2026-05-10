@@ -4,13 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        'ufc-red': '#CC0A0A',
-        'ufc-gold': '#C49A14',
+        'ufc-black':   '#0A0A0A',
+        'ufc-white':   '#F5F5F0',
+        'ufc-red':     '#E10600',
+        'ufc-gray':    '#333333',
+        'ufc-darkgray':'#1A1A1A',
       },
       fontFamily: {
-        display: ['"Barlow Condensed"', 'Impact', 'sans-serif'],
-        body: ['Barlow', '"Helvetica Neue"', 'sans-serif'],
-        mono: ['"JetBrains Mono"', '"Courier New"', 'monospace'],
+        display: ['Anton', 'Impact', 'sans-serif'],
+        body:    ['Inter', '"Helvetica Neue"', 'sans-serif'],
+        mono:    ['"JetBrains Mono"', '"Courier New"', 'monospace'],
       },
     },
   },
