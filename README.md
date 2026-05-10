@@ -29,12 +29,13 @@ source .venv/bin/activate
 
 **Install dependencies:**
 ```bash
-pip3 install pandas numpy requests beautifulsoup4 tqdm
+pip install -r requirements.txt
 ```
 
 **Scrape fresh fight data:**
 ```bash
-python3 backend/scraper/ufcstatswebscraper.py
+python3 backend/scraper/ufcstatswebscraper.py          # incremental — only fetches new events
+python3 backend/scraper/ufcstatswebscraper.py --full   # rescrape everything from scratch
 ```
 
 **Run the Elo engine:**
