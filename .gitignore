@@ -9,6 +9,7 @@ node_modules/
 dist/
 build/
 *.log
+WORKLOG.md
 
 # AGENTS
 CLAUDE.md
