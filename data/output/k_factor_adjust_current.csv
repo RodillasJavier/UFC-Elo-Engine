@@ -14,13 +14,15 @@ Valentina Shevchenko,1218.99
 Ilia Topuria,1218.76
 Merab Dvalishvili,1218.12
 Demetrious Johnson,1213.54
-Khamzat Chimaev,1211.96
 Alex Pereira,1201.14
 Movsar Evloev,1198.89
 Stipe Miocic,1198.58
+Sean Strickland,1196.35
 Belal Muhammad,1195.73
+Alexander Volkov,1192.96
 Dricus Du Plessis,1192.76
 Daniel Cormier,1192.16
+Khamzat Chimaev,1189.79
 Ciryl Gane,1189.57
 Arman Tsarukyan,1189.48
 Carlos Ulberg,1189.45
@@ -32,18 +34,19 @@ Brendan Allen,1178.9
 Leon Edwards,1177.03
 Shavkat Rakhmonov,1176.3
 Justin Gaethje,1175.12
-Sean Strickland,1174.18
-Alexander Volkov,1174.13
 Ryan Bader,1174.07
 Alexandre Pantoja,1173.13
 Nassourdine Imavov,1171.91
+Joshua Van,1171.13
 Tom Aspinall,1169.95
 Royce Gracie,1167.85
 Sean O'Malley,1165.16
 Michael Morales,1165.05
 Glover Teixeira,1164.13
 Cain Velasquez,1163.76
+Grant Dawson,1163.45
 Carlos Prates,1162.9
+Sean Brady,1162.09
 TJ Dillashaw,1161.62
 Tatiana Suarez,1161.59
 Jon Fitch,1159.54
@@ -54,7 +57,6 @@ Natalia Silva,1156.38
 Cory Sandhagen,1154.94
 Lerone Murphy,1154.5
 Gegard Mousasi,1154.27
-Waldo Cortes Acosta,1153.77
 Anthony Johnson,1152.81
 Mario Bautista,1152.59
 Benson Henderson,1151.89
@@ -64,17 +66,12 @@ Michael Chiesa,1150.93
 Benoit Saint Denis,1150.88
 Michael Bisping,1150.16
 Manon Fiorot,1149.51
-Joshua Van,1148.59
-Grant Dawson,1148.31
 Demian Maia,1147.89
 Colby Covington,1147.32
 Kyoji Horiguchi,1145.92
 Jack Della Maddalena,1145.23
-Joaquin Buckley,1144.35
 Deiveson Figueiredo,1143.63
 Curtis Blaydes,1142.41
-Sean Brady,1141.95
-Tatsuro Taira,1141.71
 Gregory Rodrigues,1141.27
 Francisco Trinaldo,1141.12
 Anthony Hernandez,1139.41
@@ -84,10 +81,10 @@ Arnold Allen,1137.72
 Vicente Luque,1137.69
 Caio Borralho,1137.67
 John Lineker,1137.55
-Joel Alvarez,1137.41
 Yair Rodriguez,1137.23
 Gillian Robertson,1135.58
 Joe Pyfer,1135.09
+Waldo Cortes Acosta,1134.94
 Sergei Pavlovich,1134.71
 Mateusz Gamrot,1133.77
 Muhammad Mokaev,1133.53
@@ -98,6 +95,7 @@ Beneil Dariush,1130.17
 Steve Garcia,1129.81
 Mike Malott,1129.65
 Lyoto Machida,1129.44
+Pat Sabatini,1128.04
 Raoni Barcelos,1127.96
 Matt Hughes,1127.87
 Aiemann Zahabi,1127.59
@@ -108,6 +106,7 @@ Rustam Khabilov,1125.44
 Gregor Gillespie,1124.92
 Paddy Pimblett,1124.65
 Rinat Fakhretdinov,1124.39
+Joaquin Buckley,1124.21
 Kenny Florian,1123.58
 Drakkar Klose,1123.57
 Randy Couture,1123.38
@@ -122,6 +121,7 @@ Farid Basharat,1119.79
 Yoel Romero,1119.35
 Jan Blachowicz,1119.27
 Neil Magny,1119.17
+Tatsuro Taira,1119.17
 Zabit Magomedsharipov,1118.07
 Nate Diaz,1117.44
 Israel Adesanya,1117.24
@@ -134,13 +134,14 @@ Norma Dumont,1114.93
 Jean Silva,1114.51
 Dominick Reyes,1114.45
 Melquizael Costa,1114.05
+Jim Miller,1112.05
 Mackenzie Dern,1111.6
 Zak Cummings,1111.28
 Phil Davis,1111.13
 Paulo Costa,1110.15
-Pat Sabatini,1109.93
 Christian Leroy Duncan,1109.32
 Alexa Grasso,1107.83
+Joel Alvarez,1107.67
 Frank Shamrock,1106.91
 James Krause,1106.89
 Alistair Overeem,1106.62
@@ -172,10 +173,12 @@ Josh Barnett,1098.18
 Jonathan Martinez,1097.72
 Cristiane Justino,1097.7
 Mairbek Taisumov,1097.66
+King Green,1097.11
 Rick Story,1097.05
 Ricardo Lamas,1096.21
 Raul Rosas Jr.,1095.93
 Chas Skelly,1095.79
+Ateba Gautier,1095.56
 Martin Buday,1095.47
 Ludovit Klein,1095.29
 Tim Sylvia,1095.22
@@ -194,7 +197,6 @@ Myktybek Orolbai,1093.15
 Jared Cannonier,1092.47
 Thiago Silva,1092.29
 Kevin Vallejos,1092.24
-Jim Miller,1092.07
 Uros Medic,1091.74
 Jacqueline Cavalcanti,1091.73
 Elias Theodorou,1091.57
@@ -241,7 +243,6 @@ Sean Woodson,1081.61
 Michael Page,1081.54
 Gilbert Burns,1081.51
 Paul Felder,1081.41
-King Green,1081.28
 Chan Sung Jung,1080.61
 Matt Hamill,1080.27
 David Teymur,1080.25
@@ -260,13 +261,11 @@ Pedro Rizzo,1077.91
 Nikita Krylov,1077.9
 Serghei Spivac,1077.84
 Ricky Simon,1077.79
-Ateba Gautier,1077.63
 Marcos Rogerio de Lima,1077.55
 Kayla Harrison,1077.47
 Rani Yahya,1077.41
 Bogdan Guskov,1077.22
 Rousimar Palhares,1077.07
-William Gomis,1076.94
 Miranda Maverick,1076.39
 Ronda Rousey,1075.93
 Andre Lima,1075.81
@@ -333,6 +332,7 @@ Brando Pericic,1065.3
 Elizeu Zaleski dos Santos,1065.0
 Amanda Lemos,1064.77
 Kevin Lee,1064.71
+Baisangur Susurkaev,1064.67
 Myles Jury,1064.61
 Jacobe Smith,1064.56
 Michal Oleksiejczuk,1064.4
@@ -351,6 +351,7 @@ Nazim Sadykhov,1062.59
 Mark Bocek,1062.58
 Chael Sonnen,1062.23
 Elijah Smith,1062.18
+Yaroslav Amosov,1062.18
 Chris Lytle,1062.17
 Josh Emmett,1061.98
 Brandon Royval,1061.95
@@ -372,6 +373,7 @@ Mick Parkin,1059.35
 Loopy Godinez,1059.14
 Geoff Neal,1058.98
 Karo Parisyan,1058.84
+William Gomis,1058.83
 Karol Rosa,1058.71
 Leonardo Santos,1058.49
 Nurullo Aliev,1058.39
@@ -392,6 +394,7 @@ Adrian Yanez,1055.85
 Murilo Bustamante,1055.83
 Dan Hardy,1055.64
 MarQuel Mederos,1055.38
+Roman Kopylov,1055.34
 Davey Grant,1055.33
 Jerry Bohlander,1055.31
 Evan Tanner,1055.28
@@ -454,7 +457,6 @@ Andre Petroski,1046.39
 Enrique Barzola,1046.36
 Ray Borg,1046.31
 Dean Lister,1046.3
-Jared Gordon,1046.17
 Charles Johnson,1046.16
 Sergio Moraes,1046.13
 Brady Hiestand,1046.01
@@ -473,7 +475,6 @@ Adlan Amagov,1044.86
 Karine Silva,1044.68
 Bia Mesquita,1044.68
 Edson Barboza,1044.56
-Baisangur Susurkaev,1044.54
 Ramazan Temirov,1044.49
 Joel Sutton,1044.48
 Seokhyeon Ko,1044.34
@@ -545,7 +546,6 @@ Chris Curtis,1036.82
 Diego Brandao,1036.71
 Josh Koscheck,1036.67
 Magnus Cedenblad,1036.26
-Roman Kopylov,1036.23
 Joaquim Silva,1036.22
 Vladimir Matyushenko,1036.13
 Olivier Aubin-Mercier,1036.1
@@ -579,7 +579,6 @@ Jacob Volkmann,1032.82
 Rafael Estevam,1032.81
 Holly Holm,1032.74
 Mohammed Usman,1032.64
-Yaroslav Amosov,1032.44
 Ali Bagautinov,1032.28
 Jeff Monson,1032.13
 Sumudaerji,1031.77
@@ -622,6 +621,7 @@ Joseph Morales,1026.56
 Khalid Murtazaliev,1026.5
 Magomed Mustafaev,1026.4
 Lerryan Douglas,1026.3
+Jared Gordon,1026.19
 John Makdessi,1026.17
 Mirsad Bektic,1025.95
 Sanae Kikuta,1025.84
@@ -638,7 +638,6 @@ Javier Reyes,1024.88
 Edgar Chairez,1024.81
 Ikuhisa Minowa,1024.63
 Genki Sudo,1024.57
-Mateusz Rebecki,1024.54
 Mark Schultz,1024.52
 Brendan Schaub,1024.43
 Lee Murray,1024.41
@@ -720,7 +719,6 @@ Marina Rodriguez,1020.91
 Cesar Almeida,1020.86
 Brian Stann,1020.82
 Kyle Daukaus,1020.76
-Marco Tulio,1020.73
 Victor Valenzuela,1020.68
 Marcio Barbosa,1020.63
 Tom Duquesnoy,1020.61
@@ -843,10 +841,12 @@ Alex Morono,1009.74
 Alex Garcia,1009.72
 Ildemar Alcantara,1009.47
 Cung Le,1009.45
+Mateusz Rebecki,1009.4
 Mike Perry,1009.31
 Gabe Green,1009.28
 Keith Hackney,1009.17
 Damon Jackson,1009.07
+Jose Ochoa,1008.75
 Falaniko Vitale,1008.52
 Andrei Arlovski,1008.47
 Aaron Pico,1008.41
@@ -933,6 +933,7 @@ Elves Brener,1002.0
 Zak Ottow,1001.93
 Troy Mandaloniz,1001.76
 Alice Pereira,1001.67
+Marco Tulio,1001.62
 Brianna Fortino,1001.59
 Nick Ring,1001.54
 Tai Bowden,1001.52
@@ -949,7 +950,6 @@ Jesus Pinedo,1001.05
 Cheyanne Vlismas,1001.05
 Jose Torres,1001.04
 Dan Cramer,1001.01
-Djorden Santos,1000.98
 Eddie Yagin,1000.93
 Lance Benoist,1000.92
 Nicco Montano,1000.85
@@ -970,7 +970,6 @@ Melissa Mullins,1000.27
 Tedd Williams,1000.23
 James Wilks,1000.23
 Waylon Lowe,1000.22
-Clayton Carpenter,1000.21
 Patrick Walsh,1000.17
 Jack Nilson,1000.1
 Brad Kohler,1000.1
@@ -1001,7 +1000,6 @@ Jonathan Meunier,999.82
 Joe Duffy,999.81
 Miguel Torres,999.76
 Keith Rockel,999.75
-Ozzy Diaz,999.75
 Katsuhisa Fujii,999.71
 Jason DeLucia,999.7
 Chris Clements,999.7
@@ -1182,7 +1180,6 @@ Jason Knight,988.65
 Raulian Paiva,988.61
 Tarec Saffiedine,988.6
 Vitor Miranda,988.06
-Jose Ochoa,988.05
 Andrew Sanchez,988.0
 John Howard,987.95
 Ricardo Ramos,987.72
@@ -1311,6 +1308,7 @@ Spike Carlyle,981.94
 Daichi Abe,981.85
 Julian Sanchez,981.83
 Nick Pace,981.83
+Ozzy Diaz,981.82
 Tom Gallicchio,981.79
 Matt Veach,981.73
 Mitch Raposo,981.71
@@ -1340,6 +1338,7 @@ Caros Fodor,980.97
 Gianni Vazquez,980.96
 Adam Yandiev,980.94
 Batgerel Danaa,980.92
+Djorden Santos,980.85
 Josh Hendricks,980.81
 Dan Miller,980.8
 Rory Markham,980.79
@@ -1446,6 +1445,7 @@ Henry Martinez,979.6
 Hayato Sakurai,979.58
 Eduardo Garagorri,979.58
 Trevor Peek,979.58
+Clayton Carpenter,979.51
 Simeon Thoresen,979.48
 Robelis Despaigne,979.45
 Augusto Montano,979.41
@@ -1866,7 +1866,6 @@ Junior Tafa,969.5
 AJ Fletcher,969.49
 Mike Brown,969.45
 Geane Herrera,969.33
-Jeremy Stephens,969.16
 Craig White,969.02
 Xiao Long,968.83
 Isaac Vallie-Flagg,968.68
@@ -2393,6 +2392,7 @@ Marc-Andre Barriault,953.52
 Gadzhimurad Antigulov,953.49
 Jordan Griffin,953.48
 Jenel Lausa,953.44
+Jeremy Stephens,953.33
 Samy Schiavo,953.32
 Chris Dempsey,953.31
 Tom Watson,953.3
