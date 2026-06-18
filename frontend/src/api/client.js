@@ -4,7 +4,7 @@
  * A client for making API requests.
  */
 
-const BASE_URL = import.meta.env.VITE_API_URL || ''
+const BASE_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '')
 
 /**
  * Fetches data from the API.
