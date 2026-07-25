@@ -66,6 +66,13 @@ Open [http://localhost:5173](http://localhost:5173).
 - Rating update: `K × (actual_score - expected_score)`
 - KO/submission wins: K=46 &nbsp;|&nbsp; Decision wins: K=40 &nbsp;|&nbsp; Draws: K/2 with 0.5 score &nbsp;|&nbsp; No contests: no change
 
+## Deployment
+
+- Backend: [Render](https://render.com), via `render.yaml`.
+- Frontend: [Vercel](https://vercel.com), via `vercel.json`.
+
+The API's CORS policy (`backend/api/main.py`) is locked to `localhost` plus any `*.vercel.app` origin for this project, rather than a wildcard, to keep other sites from freeloading off the free-tier backend. **If you ever put this behind a custom domain** (e.g. `ufcelo.com`), add that domain to `allow_origins` in `backend/api/main.py` — the `*.vercel.app` regex won't match it.
+
 ## Contributors
 
 - [Javier Rodillas](https://github.com/RodillasJavier)
