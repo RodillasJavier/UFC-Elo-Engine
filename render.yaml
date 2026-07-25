@@ -8,5 +8,3 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.13
-      - key: FRONTEND_URL
-        value: https://ufc-elo-engine-three.vercel.app/

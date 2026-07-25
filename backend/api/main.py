@@ -10,10 +10,12 @@ Endpoints:
 Elo data is preloaded at startup via the lifespan context so the first request
 is not penalised by the CSV parse and simulation cost.
 
-CORS origin is configured via the FRONTEND_URL env var (default localhost:5173).
+CORS allows localhost and any *.vercel.app preview/production URL for this
+project (Vercel assigns a new preview origin on every deploy, so exact-match
+would break on each push). See README for updating this if a custom domain
+is added.
 """
 
-import os
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Query
@@ -36,13 +38,11 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="UFC Elo API", lifespan=lifespan)
 
-FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
-
-# Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_URL, "http://localhost:5173", "https://localhost:5173"],
-    allow_credentials=True,
+    allow_origins=["http://localhost:5173", "https://localhost:5173"],
+    allow_origin_regex=r"https://ufc-elo-engine.*\.vercel\.app",
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
